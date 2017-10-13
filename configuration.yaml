@@ -33,6 +33,9 @@ sun:
 tts:
   - platform: google
 
+zwave:
+usb_path: /dev/ttyAMA0
+
 packages: !include_dir_named packages
 group: !include_dir_merge_named group
 device_tracker: !include_dir_merge_list device_tracker
