@@ -1,7 +1,7 @@
 homeassistant:
 
   name: Home
-  atitude: !secret homeassistant_latitude
+  latitude: !secret homeassistant_latitude
   longitude: !secret homeassistant_longitude
   elevation: !secret homeassistant_elevation
   unit_system: metric
