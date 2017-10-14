@@ -50,15 +50,3 @@ switch:
         command_off: "curl -X GET 'http://192.168.0.13/admin/api.php?disable=3600&auth='"
 #        command_state: "curl -X GET 'http://192.168.10.11/admin/api.php?status'"
 #        value_template: "{{ value_json.status == 'enabled' }}
-
-#-------------------------------------------
-group:
-  pihole:
-    entities:
-      - sensor.unique_clients
-      - sensor.pihole_dns_queries_today
-      - sensor.pihole_ads_blocked_today
-      - sensor.pihole_ads_percentage_today
-      - sensor.pihole_ads_percentage_blocked_today
-      - switch.pihole_temp_disable
-#-------------------------------------------
