@@ -1,6 +1,3 @@
-#-------------------------------------------
-#  PiHole ad Blocking Related Packages
-#-------------------------------------------
 homeassistant:
   customize:
 
