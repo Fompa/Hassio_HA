@@ -4,8 +4,8 @@ sensor.thommys_ipad_pro_battery_level:
   homebridge_hidden: True
   icon: mdi:battery-40
 
-  sensor.thommys_ipad_pro_battery_state:
-    friendly_name: 'THOMMYs iPad Pro Battery State'
-    hidden: True
-    homebridge_hidden: True
-    icon: mdi:battery-40
+sensor.thommys_ipad_pro_battery_state:
+  friendly_name: 'THOMMYs iPad Pro Battery State'
+  hidden: True
+  homebridge_hidden: True
+  icon: mdi:battery-40
