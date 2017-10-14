@@ -21,6 +21,8 @@ updater:
 
 discovery:
 
+ios:
+
 conversation:
 
 history:
