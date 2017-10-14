@@ -1,0 +1,20 @@
+sensor.pihole_ads_percentage_today:
+  friendly_name: Percentage of Ad Traffic Blocked
+  unit_of_measurement: '%'
+  icon: mdi:ticket-percent
+
+sensor.pihole_domains_being_blocked:
+  friendly_name: Total Domains Blocking
+  icon: mdi:do-not-disturb
+
+sensor.pihole_unique_clients:
+  friendly_name: Unique Clients
+  icon: mdi:desktop-classic
+
+sensor.pihole_ads_blocked_today:
+  friendly_name: Ads Blocked Today
+  icon: mdi:do-not-disturb
+
+sensor.pihole_dns_queries_today:
+  friendly_name: DNS Queries Today
+  icon: mdi:note-text
