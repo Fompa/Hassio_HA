@@ -3,7 +3,7 @@ sensor.pihole_ads_percentage_today:
   unit_of_measurement: '%'
   icon: mdi:ticket-percent
 
-sensor.pihole_unique_clients:
+sensor.pihole_dns_unique_clients:
   friendly_name: Unique Clients
   icon: mdi:desktop-classic
 
